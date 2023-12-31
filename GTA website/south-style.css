@@ -1,0 +1,48 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(255, 252, 247);
+}
+header{
+    height: 350px;
+    width: 100%;
+    background-image: url(images/cars-stors/Southern/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contaner{
+    background: rgb(255, 191, 17);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+    position: relative;
+    top: -40px;
+    box-shadow: 2px 5px 15px rgb(99, 99, 99);
+}
+.contaner button{
+    height: 40px;
+    width: 120px;
+    margin: 0px 5px;
+    background: black;
+    color: white;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.line{
+    display: inline-flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    background: none;
+    
+}
